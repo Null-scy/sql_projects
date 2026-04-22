@@ -1,4 +1,4 @@
-public.person_discountsCREATE SEQUENCE seq_person_discounts
+CREATE SEQUENCE seq_person_discounts
 	START WITH 1
 	INCREMENT BY 1; 
 

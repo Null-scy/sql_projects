@@ -42,7 +42,7 @@ WITH RECURSIVE road AS (
     AND r.path @> ARRAY['b','c','d']::varchar[]
 )))
 SELECT *
-FROM road)
+FROM road);
 
 SELECT 
 	total_cost,
